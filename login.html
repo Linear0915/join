@@ -1,0 +1,171 @@
+<div id="wrapperHeader">
+    <div id="header">
+        <img src="Head0.png" width="1920" height="300" alt="Head0" />
+    </div>
+</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>고양이카페 : 고양아 멍멍 울어봐</title>
+    <style>
+        .bg-1 {
+            background-color: #f3b121;
+        }
+
+        .bg-4 {
+            background-color: black;
+            color: white;
+        }
+
+        .table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        .form-0 {
+            padding-top: 120px;
+            padding-bottom: 120px;
+            background-color: white;
+            border: 3px solid;
+            border-color: #F98B06;
+            width: 600px;
+            height: 650px;
+        }
+
+        .form-1 {
+            background-color: white;
+            border: 0;
+            height: 300px;
+            align-content: center;
+            padding-left: 30px;
+        }
+
+        .logo-1 {
+            padding: 20px;
+            ;
+            height: flex;
+        }
+
+        .catpicture-1 {
+            overflow: hidden
+        }
+
+        .catpicture-2 {
+            overflow: hidden
+        }
+
+        .formwords {
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="container-fluid collapse navbar-collapse bg-1">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!--<li class="active"><a href="#">Home</a></li>-->
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/1120MISPD%ED%95%9C%EA%B8%80%EA%B9%A8%EC%A7%90%ED%95%B4%EA%B2%B0/sample.html">홈</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EA%B3%BC%EC%A0%9C/%EB%A9%94%EB%89%B4.html">메뉴</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EA%B3%BC%EC%A0%9C/%EC%A0%9C%EA%B3%B5%EC%84%9C%EB%B9%84%EC%8A%A4.html">서비스</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%84%B1%ED%98%84%EC%9D%B4/%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0.html">예약</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%ED%83%9C%EC%83%81%EC%9D%B4%ED%98%951/%ED%83%9C%EC%83%81%20%ED%8C%8C%ED%8A%B8.html">게시판</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%A4%80%ED%95%98%ED%98%95/login.html">로그인</a></li>
+                    <li><a href="file:///C:/Users/linea/Desktop/%EA%B2%BD%EC%A0%95%EC%8B%9C%ED%8C%80%ED%94%8C/%EC%A4%80%ED%95%98%ED%98%95/join.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--
+                        헤더 삽입용 수정 2
+                      <div class="container-fluid bg-1 text-center">
+
+                            <img src="Head0.png" alt="head" style="widows: 90%">
+                        </div>
+    -->
+    <br>
+    <div class="container-fluid bg-2 text-center">
+        <div class="row">
+            <div class="col-sm-4 catpicture-1">
+                <img src="고양이그림1.png" alt="catpicture1" style="width: 600px; height: 650px;" />
+            </div>
+            <div class="col-sm-4 form-0">
+                <div class="logo-1">
+                    <img src="그림3.png" alt="catlogo-1" style="width: 70px; height: 70px;" />
+                </div>
+                <div>
+                    <div>
+                        <h3>로그인해라냥</h3>
+                    </div>
+                    <form method="post" id="authForm" action="주소">
+                        <input type="hidden" name="redirectUrl" value="주소">
+                        <div>
+                            <div class="inp_text">
+                                <label for="loginId">아이디가 뭐냥</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="email" id="loginId" name="loginId" placeholder="ID">
+                            </div>
+                            <br>
+                            <div class="inp_text">
+                                <label for="loginPw">비밀번호가 뭐냥</label>&nbsp;&nbsp;
+                                <input type="password" id="loginPw" name="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <br>
+                        <button type="submit" disabled>로그인</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" disabled>회원가입</button>
+                        <div>
+                            <div>
+                                <!-- 체크시 checked 추가 -->
+                                <br>
+                                <input type="checkbox" id="keepLogin" name="keepLogin">
+                                <label for="keepLogin">
+                                    <span></span>
+                                    <span>로그인 상태 유지</span>
+                                </label>
+                            </div>
+                            <span>
+                                <a href="/member/find/loginId">아이디</a>
+                                /
+                                <a href="/member/find/password">비밀번호 찾기</a>
+                            </span>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-4 catpicture-2">
+                <img src="고양이그림2.png" alt="catpicture2" style="width: 600px; height: 650px;" />
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+</body>
+<footer class="container-fluid bg-4 text-center">
+    SeoulTech.Univ.MISPD &nbsp; &nbsp; 조장 : 김준하 &nbsp; &nbsp; 조원 : 김종화, 정태상, 정수민, 최성현
+</footer>
+</html>

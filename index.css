@@ -1,0 +1,12 @@
+#wrapperHeader {
+    position: relative;
+    background-image: url(images/Head0.png);
+}
+
+#header {
+    left: 50%;
+    margin-left: -500px;
+    background: url(images/Head0.png) no-repeat;
+    width: 1000px;
+    height: 200px;
+}
